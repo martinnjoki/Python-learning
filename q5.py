@@ -10,3 +10,11 @@ if num3 < largest:
     print(" The largest number is: Largest")
 else:
     print("The smallest number")
+    #function
+    def find_largest(num1, num2, num3):
+        return max(num1, num2, num3)
+    num1 = float(input("Enter the number: "))
+    num2 = float(input("Enter the number: "))
+    num3 = float(input("Enter the number: "))
+    largest = find_largest(num1, num2, num3)
+    print(f"The largest number is {largest}")
