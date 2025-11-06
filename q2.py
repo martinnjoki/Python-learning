@@ -5,10 +5,10 @@ if number %2==0:
 else:
     print("odd")
     #function
-    def check_even_odd(number):
-        if number %2==0:
-            "return even"
-        else:
-            "return odd"
+def check_even_odd(number):
+    if number %2==0:
+        return even
+    else:
+        return odd
 number = int(input("Enter the number: ")) 
 print(f"The number  is {number}.")           

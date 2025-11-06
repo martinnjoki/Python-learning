@@ -1,4 +1,6 @@
-def calculate_total_ and_average(maths, eng, swa, sci, sos):
-total = maths + eng + swa + sci + sos
-average = total / 5
-return total, average
+def add_totals(maths, eng, swa, sci, sos):
+    return(maths + eng + swa + sci + sos)
+sum1 = add_totals(80, 65, 70, 75, 68)
+print(sum1)
+
+    
