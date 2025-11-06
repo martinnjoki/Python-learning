@@ -20,9 +20,9 @@ def calculate_nssf(gross_salary):
     if nssf > 1000:
         nssf = 1000
         return nssf
-    def calculate_nhdf(gross_salary, nhdf_rate = 0.015):
-        nhdf = gross_salary * 0.015
-        return nhdf
+def calculate_nhdf(gross_salary, nhdf_rate = 0.015):
+    nhdf = gross_salary * 0.015
+    return nhdf
 basic_salary = float(input("Enter your basic salary: "))
 benefits = float(input("Enter benefits: "))
 gross_salary = basic_salary+benefits 
