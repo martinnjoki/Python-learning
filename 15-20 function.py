@@ -31,5 +31,6 @@ nhif_deductions = calculate_nhif(gross_salary)
 nssf_deductions = calculate_nssf(gross_salary)
 print(f"Gloss salary: ksh{gross_salary}") 
 print(f"Nhif: ksh {nhif_deductions}") 
-print(f"Nssf: ksh{nssf_deductions}")                        
+print(f"Nssf: ksh{nssf_deductions}")
+print(f"Nhdf: ksh{nhdf_deductions}")                        
     
